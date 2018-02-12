@@ -23,7 +23,7 @@
     <ProjectGuid>{944484A5-C353-484C-8E4A-C64DEA93D976}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My20180208SerialSDL</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -157,12 +157,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="SerialInterface.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="20180208SerialSDL.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="SerialInterface.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
